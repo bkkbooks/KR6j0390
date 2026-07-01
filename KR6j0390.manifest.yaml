@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6j0390/v1
+canonical_location: https://kanripo.org/bkk/KR6j0390/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 八大菩薩曼荼羅經
+  identifiers:
+    alt_id:
+    - T20n1167
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1167.xml
+    old_id: T20n1167
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 甲
+  label: 甲
+  source_xml_id: wit2
+- short: 原
+  label: 原
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0390_000.yaml, hash: 'sha256:5da04971b57da73bc86fdf89126cfdb90d728c25eb07d1a609e23159ff44a221'}
+  - {seq: 1, filename: KR6j0390_001.yaml, hash: 'sha256:1fb60d4586ac5347fb1d48f02204e2ebf86980fc27ac58ad3c16b48c66dbb690'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0390_001.markers.yaml, hash: 'sha256:77b8bf0b5fb9a976b72eb2818c4a9655530f85e18699a91b2befad39f45188c3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0390_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1110
+  label: 八大菩薩曼荼羅經
+  type: juan
+  level: 1
+hash: sha256:c800689680878ea373d9f4b30290bc761e5c80522c29222b44bc3531d0e82988
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

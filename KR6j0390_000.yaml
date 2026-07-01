@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0390/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 八大菩薩曼荼羅經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1167.xml
+    old_id: T20n1167
+hash: sha256:5da04971b57da73bc86fdf89126cfdb90d728c25eb07d1a609e23159ff44a221
