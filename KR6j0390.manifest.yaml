@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0390_000.yaml, hash: 'sha256:5da04971b57da73bc86fdf89126cfdb90d728c25eb07d1a609e23159ff44a221'}
-  - {seq: 1, filename: KR6j0390_001.yaml, hash: 'sha256:1fb60d4586ac5347fb1d48f02204e2ebf86980fc27ac58ad3c16b48c66dbb690'}
+  - {seq: 1, filename: KR6j0390_001.yaml, hash: 'sha256:c859d8298589b70f01de6839c586ad03b3f405977f14ba2438ec00e71087aaae'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0390_001.markers.yaml, hash: 'sha256:77b8bf0b5fb9a976b72eb2818c4a9655530f85e18699a91b2befad39f45188c3'}
+  - {seq: 0, role: markers, filename: assets/KR6j0390_000.markers.yaml, hash: 'sha256:de79b8639daf371a5ec1e6873b0e8a2f8a331de791b43c290b10f2099de85605'}
+  - {seq: 1, role: markers, filename: assets/KR6j0390_001.markers.yaml, hash: 'sha256:dd2ced1dc74bf85d91115f3692a428586bd928a257df9eed2db364c4156379a9'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 八大菩薩曼荼羅經
   type: juan
   level: 1
-hash: sha256:c800689680878ea373d9f4b30290bc761e5c80522c29222b44bc3531d0e82988
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7aabc2309d6a0b229d2ae936decc85c9eb0ef05f2f3882411736b3197b4c9d52
